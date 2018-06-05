@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat)
+@import url(https://fonts.googleapis.com/css?family=PT+Serif:400,400italic)
+
+$headline-font: "Montserrat", Arial, sans-serif
+$text-font: "PT Serif", serif
+
+
+                                                             #toast-container
+                                                             font-family: $headline-font
+
+                                                                           .border-radius
+                                                                           -moz-border-radius: 5px
+                                                                                                -webkit-border-radius: 5px
+                                                                                                                        border-radius: 5px
+
+                                                                                                                                        body
+                                                                                                                                        background-color: #f39c12
+                                                                                                                                        .tutorial
+@extend .border-radius
+background-color: #fff
+margin: 10vh auto
+width: 80vw
+max-width: 960px
+-webkit-box-shadow: 0px 4px 5px -1px rgba(0, 0, 0, 0.75)
+-moz-box-shadow: 0px 4px 5px -1px rgba(0, 0, 0, 0.75)
+box-shadow: 0px 4px 5px -1px rgba(0, 0, 0, 0.75)
+@media (max-width: 50em)
+width: 100vw
+
+h1
+padding-top: 5%
+margin: 0 8%
+font-family: $headline-font
+
+h4
+margin: 0 8.2%
+font-family: $headline-font
+
+label
+font-family: $text-font
+font-style: italic
+margin-left: 30px
+
+p
+margin: 3% 8% 1% 8%
+font-family: $text-font
+line-height: 28px
+text-align: justify
+&:last-of-type
+padding-bottom: 80px
+&::first-letter
+font-family: $headline-font
+font-size: 54px
+float: left
+color: #f39c12
+line-height: 50px
+margin: 0 7px -2px 0
+.code
+@extend .border-radius
+margin: 0 7.5%
+padding-left: 40px
+font-size: 1.2em
+cursor: pointer
+@med1a (max-width: 50em)
+margin: 0
+padding: 0 7.5%
